@@ -4,7 +4,7 @@ import { useCallback, useRef, useState } from "react";
 import { UploadCloud, FileBox, CheckCircle2, XCircle, Loader2 } from "lucide-react";
 
 const ACCEPTED_EXTENSIONS = [".stl", ".ply", ".obj", ".zip", ".dcm", ".pdf"];
-const MAX_SIZE_MB = 200;
+const MAX_SIZE_MB = 500;
 
 type JobStatus = "wartend" | "wird_uebertragen" | "fertig" | "fehler";
 
